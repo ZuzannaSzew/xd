@@ -1,0 +1,12 @@
+/* Styl dla galerii obrazów */
+.galeria img {
+    width: 100%; /* Ustal podstawowy rozmiar obrazu */
+    transition: transform 0.3s ease; /* Animacja powiększenia */
+    cursor: pointer; /* Dodanie wskaźnika kursora */
+  }
+  
+  /* Powiększenie po najechaniu */
+  .galeria img:hover {
+    transform: scale(1.1); /* Powiększenie obrazu o 10% */
+  }
+  

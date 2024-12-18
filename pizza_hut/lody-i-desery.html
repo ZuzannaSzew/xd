@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="./Style/Img/logo.png" />
+    <link rel="stylesheet" href="./Style/style.css" />
+    <script src="./Scritps/values.js" defer></script>
+    <script src="./Scritps/kosyk.js"></script>
+    <script src="./Scritps/applicationMenu.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Diplomata&family=Monoton&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Style+Script&family=Ultra&display=swap"
+      rel="stylesheet"
+    >
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__menu" id="menu">
+        <div></div>
+        <h1>MENU</h1>
+        <div></div>
+      </div>
+    </header>
+
+    <header class="header__menu--open" id="menuContainer">
+      <ul>
+        <li><a href="index.html">HOME/a></li>
+        <li><a href="pizza.html">PIZZA</a></li>
+        <li><a href="sosy.html">SOSY</a></li>
+        <li><a href="zapiekarony.html">ZAPIEKARONY</a></li>
+        <li><a href="sałatki.html">SAŁATKI</a></li>
+        <li><a href="lody-i-desery.html">LODY I DESERY</a></li>
+        <li>
+          <button class="header__menu--close__list" id="menu--close">
+            Close
+          </button>
+        </li>
+      </ul>
+    </header>
+
+      <div class="galeria"> 
+        <h1>DESER NACHO KRÓWKA</h1>
+        <img class="img" src="Img/deser-nacho-krówka.png" alt="deser-nacho-krówka">
+        <p>Nachosy solone podane z posypką, lodami śmietankowymi, </p>
+        <p>polane sosem krówkowym.</p>
+        <button class="buy-button">kup za 9.99 ZŁ</button>
+        <div id="cart-message" class="cart-message"></div>
+      </div>
+
+      <div class="galeria"> 
+        <h1>LAVA CAKE</h1>
+        <img class="img" src="Img/lava-cake.png" alt="lava-cake">
+        <p>Gorące ciasto z płynną, aksamitną czekoladą w środku, podawane z kulką</p>
+        <p>lodów śmietankowych i miętą</p>
+        <button class="buy-button">kup za 18.99 ZŁ</button>
+        <div id="cart-message" class="cart-message"></div>
+      </div>
+      
+      <div class="galeria"> 
+        <h1>HOT CHOCOLATE COOKIE</h1>
+        <img class="img" src="Img/hot-chocolate-cookie.png" alt="hot-chocolate-cookie">
+        <p>Gorące ciastko z kawałkami czekolady, podawane z kulką lodów śmietankowychi miętą</p>
+        <p>polane sosem czekoladowym</p>
+        <button class="buy-button">kup za 17.99 ZŁ</button>
+        <div id="cart-message" class="cart-message"></div>
+      </div>
+
+      <div class="galeria"> 
+        <h1>JABŁKO POD KRUSZONKĄ</h1>
+        <img class="img" src="Img/jabłko-pod-kruszonką.png" alt="jabłko-pod-kruszonką">
+        <p>Podawane na gorąco jabłka prażonez cynamonem, posypane kruszonką, </p>
+        <p>z kulką lodów śmietankowych i miętą</p>
+        <button class="buy-button">kup za 12.99 ZŁ</button>
+        <div id="cart-message" class="cart-message"></div>
+      </div>
+
+      <div class="galeria"> 
+        <h1>BEN&JERRY’S DULCE </h1>
+        <h1>DE-LISH 100 ML</h1>
+        <img class="img" src="Img/dulce-de-lish.png" alt="dulce-de-lish">
+        <p>Lody o smaku słonego karmelu z kawałkami karmelu i sosem karmelowym,</p>
+        <p>dopełnione lodami o smaku czekoladowym z sosem karmelowym        </p>
+        <p>i kawałkami czekolady. </p>
+        <button class="buy-button">kup za 10.99 ZŁ</button>
+        <div id="cart-message" class="cart-message"></div>
+      </div>
+
+      <div class="galeria"> 
+        <h1>DESER LODOWY</h1>
+        <img class="img" src="Img/deser-lodowy.png" alt="deser-lodowy">
+        <p>Lody śmietankowe podawane z dodatkami do wyboru: sos: czekoladowy,</p>
+        <p>truskawkowy, karmelowy oraz posypką: z czekoladowych wafelków,</p>
+        <p> chrupiących draży czekoladowych.</p>
+        <button class="buy-button">kup za 15.99 ZŁ</button>
+        <div id="cart-message" class="cart-message"></div>
+      </div>
+
+
+      
+     
+
+      <div class="galeria"> 
+        <h1>TRUSKAWKI POD KRUSZONKĄ</h1>
+        <img class="img" src="Img/truskawka-pod-kruszonką.png" alt="truskawka-pod-kruszonką">
+        <p>Podawane na gorąco pieczone truskawkipod kruszonką, z kulką lodów śmietankowych i miętą</p>
+        <button class="buy-button">kup za 12.99 ZŁ</button>
+        <div id="cart-message" class="cart-message"></div>
+      </div>
+
+      
+
+      <div class="galeria"> 
+        <h1>BEN&JERRY’S COOKIE </h1>
+        <h1>DOUGH 100 ML</h1>
+        <img class="img" src="Img/cookie-dough.png" alt="cookie-dough">
+        <p>Lody waniliowe z kawałkami ciastek z czekoladą i kawałkami czekolady.</p>
+        <button class="buy-button">kup za 10.99 ZŁ</button>
+        <div id="cart-message" class="cart-message"></div>
+      </div>
+
+      <div class="galeria"> 
+        <h1>BEN&JERRY’S CHOCOLATE</h1>
+        <h1> FUDGE BROWNIE 100ML</h1>
+        <img class="img" src="Img/chocolate.png" alt="chocolate">
+        <p>Lody czekoladowe z kawałkami czekoladowych ciastek brownie.</p>
+        <button class="buy-button">kup za 10.99 ZŁ</button>
+        <div id="cart-message" class="cart-message"></div>
+      </div>
+
+      <div class="galeria"> 
+        <h1>BEN&JERRY’S NETFLIX </h1>
+        <h1>& CHILLL’D 465 ML</h1>
+        <img class="img" src="Img/netflix.png" alt="netflix">
+        <p>Lody o smaku masła orzechowego ze słodko-słonymi kręciołkami preclowymi i fudge brownie.</p>
+        <button class="buy-button">kup za 27.99 ZŁ</button>
+        <div id="cart-message" class="cart-message"></dv>
+      </div>
+
+  </body>
+</html>
